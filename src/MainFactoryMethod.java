@@ -4,8 +4,6 @@ public class MainFactoryMethod {
 	
 	public static void main(String args[]) {
 		DisplayFactory factory = null; 
-		Display display = null; //Display comum
-		FoldableDisplay foldable = null; //Display Dobrável
 		
 		//Apple
 		factory = new AppleDisplayFactory();
